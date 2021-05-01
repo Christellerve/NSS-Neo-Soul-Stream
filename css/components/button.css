@@ -1,0 +1,22 @@
+.btn-white {
+	flex-wrap: wrap;
+	background-color: transparent;
+	position: relative;
+	bottom: -100px;
+	right: -200px; 
+	padding: 15px 20px; 
+	border-radius: 16px;
+	border-color: black;
+	display: inline-block;
+	text-align: center;
+	float: none;
+	color: white; 
+	font-weight: bold;
+	font-family: 'Lato', sans-serif; 
+	margin-left: 840px ;
+	height: 50px
+	line-height: 70px;
+	width: 125px;
+    box-shadow: 0 6px 15px 15px rgba(0, 0, 0, 0.7);
+
+}

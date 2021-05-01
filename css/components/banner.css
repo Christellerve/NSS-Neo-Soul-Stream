@@ -1,0 +1,41 @@
+.banner {
+    background-image: url(../../images/background.png); 
+    padding: 125px 20px;
+    background-size: cover; 
+    background-position: center;
+}
+
+.banner h1{ 
+	font-size: 60px;
+	color: rgb(45, 43, 40); 
+	margin: 0px auto;
+	flex-wrap: wrap;
+	text-shadow: rgb(204, 244, 255) 3px 2px;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-name: glissement;
+    animation-iteration-count: 1;
+    font-family: 'Righteous', sans-serif; 
+    font-style: initial;
+    letter-spacing: 4px; 
+    padding-top: 10%;
+}
+
+
+
+}
+@keyframes glissement {
+  from {
+    margin-left: 25%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.btn-white{
+   flex-wrap: wrap;
+  }

@@ -1,0 +1,90 @@
+/* importing Google fonts */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+/* importing all components file */
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/listinline.css");
+@import url("components/navigation.css");
+@import url("components/card.css");
+
+
+
+/* General style rules for fonts and colours */
+
+body {
+  font-family: 'Yantramanav', serif; 
+  font-size: 28px; 
+  margin: 0px; 
+ }
+
+
+ h2 {
+ 	font-family: 'Lato', sans-serif;
+ 	font-style: bolder;	
+ 	font-weight: lighter;
+ 	font-size: 25px;
+ 	padding-top: 1%; 
+ 	padding-left: 7%; 
+
+ }
+
+h4{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+ a {
+   text-decoration: none;
+   color: rgb(71, 70, 70);
+   font-weight: bold;
+   transition: color 0.3s ease;
+ }
+
+
+a:hover {
+    color: #E05D39 ;
+    text-decoration: none;
+    }
+
+
+.card-white {
+background-color: rgb(20, 8, 8);
+padding: 90px; 
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 0px 0px; 
+text-align: center;
+color: white;
+}
+
+
+.list-inline {
+ list-style: none;
+ padding-left: 0px; 
+ margin-top: 20px; 
+
+}
+
+
+.list-inline li {
+   display: inline;
+   padding: 10px; 
+  
+}
+
+.list-inline i {
+	font-size: 150%; 
+	color:rgba(94, 206, 249, 0.6);
+}
+
+.list-inline i:hover {
+	 color: rgb(255, 255, 255);
+}
